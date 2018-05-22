@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+}
+.content{
+	width: 100%;
+	margin: auto;
+}
+body{
+	background-color: #ffffff;
+	color: #000;
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	margin: 10px 10px;
+	padding: 0;
+}
+
+#wrapper {
+        margin-left:auto;
+        margin-right:auto;
+        width:1320px; /* ubah 900px jadi ukuran lebar website ente */
+}
+#container{
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+#body .content{
+	padding: 30px;
+	color: white;
+}
+
+.box{
+	float:left;
+	margin:3px;
+	opacity:0.5;
+	
+}
+
+.box img{
+	width:300px;
+	height:300px;
+	border:solid 0px white;
+	opacity: 3;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+.box:hover{
+	opacity:4;
+}
+
+.box .title{
+	background-color:rgba(0,0,0,8);
+	color: #fff;
+	padding:3px;
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	top:-50;
+}
+
+.clear{
+	clear:both;
+}
+
+
+.dir{
+	width :100%;
+	height :650px;
+	position: center;
+	background-color: black;
+}
+
+.bulat{
+	float:center;
+	margin:20px;
+	
+}
+
+.bulat img{
+	width:150px;
+	height:110px;
+	border:solid 0px white;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+.kotak{
+	float:left;
+	margin:10px;
+	border:solid 1px black;
+}
+
+.kotak img{
+	width:400px;
+	height:300px;
+	border:solid 0px black;
+}
+
+.hastag{
+	float:left;
+	margin:15px;
+	
+	
+}
+
+.hastag img{
+	width:300px;
+	height:300px;
+	border:solid 0px white;
+	
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.footer{
+	width :100%;
+	height :260px;
+	position: center;
+	background-color:black;
+}
+
+.logo{
+	float:center;
+	margin:3px;
+}
+
+.logo img{
+	width:30px;
+	height:20px;
+	padding-left:3px;
+	padding-right:3px
+	border:solid 0px black;
+}
+
+.satu{
+	width :100%;
+	height :900px;
+	position: center;
+	background-color: #F9F9F9;
+}
+
+.dua{
+	width :100%;
+	height :700px;
+	position: center;
+	background-color: #F9F9F9;
+}
+
+#header{
+	position:relative;
+	width:100%
+	height:60px;
+}
+
+#header > .content{
+	display: flex;
+	justify-content: right;
+	/*
+	justify-content: flex-start;
+	justify-content: flex-end;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-evenly;
+	*/
+}
+#menu > a{
+	color: black;
+	text-decoration: none;
+	padding: 8px;
+}
+#menu > a:hover {
+	color: #1DA1F2;
+	border-bottom: solid 2px #1DA1F2;
+}
+
+.hastag2{
+	float:left;
+	margin:15px;
+	
+	
+}
+
+.hastag2 img{
+	width:280px;
+	height:250px;
+	border:solid 0px white;
+	
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.tiga{
+	width :100%;
+	height :900px;
+	position: center;
+	background-color: #F9F9F9;
+}
+
+.empat{
+	width :100%;
+	height :400px;
+	position: center;
+	background-color: #F9F9F9;
+}
+
+
+
+
